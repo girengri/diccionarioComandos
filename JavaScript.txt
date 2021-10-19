@@ -6,3 +6,13 @@ alert(): Ventana emergente en el navegador
 document.write: Muestra información en el archivo index.html
 prompt: Ventana emergente para ingresar datos
 Number(): permite convertir texto a numero
+
+Operadores Lógicos
+Aritméticos	Relacionales		Lógicos		De asignación
++ Suma		> Mayor que		&& Y		= Asignación
+- Resta		< Menor que		! No		-= Asignación y Resta
+* Multi		>= Mayor o igual			+= Asignación y Suma
+/ División	<= Menir o igual			*= Asignación y Multiplicación
+% Modulo	!= Diferente				/= Asignación y División
+++ Incremento	== Igual				%= Asignación y Modulo
+-- Decremento			
