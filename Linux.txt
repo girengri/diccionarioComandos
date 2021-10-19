@@ -1,0 +1,9 @@
+pwd (print work directory): Muestra en que carpeta estoy ubicado
+ls (lIst files): Muestra los archivos de la carpeta donde estoy
+clear : limpiar consola
+mkdir nombreArchivo : Crea una carpeta o archivo
+ls -la: Muestra todas la carpetas de un directorio incluso las ocultas
+rm -rf: Elimina un archivo o carpeta
+cd .. : Saldo de la carpeta actual
+touch nombreArchivo = Crea un archivo
+nano nombreArchivo = Crea el archivo y me abre una consola para insertar datos en el.

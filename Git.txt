@@ -1,0 +1,28 @@
+git config --global user.name "nombre" : Define el nombre que se va a utilizar en los commits
+git config --globar user.email "email" : Define el correo que se va a utilizar en los commits
+git config --list : Muestra la configuracion actual
+git config --global -e : Verifica la configuracion actual
+
+Pasos para subir informacion a un repositorio:
+1. Se inicia dentro del proyecto que queremos subir el siguiente comando:
+	git init
+2. Modificamos los archivos que estamos trabajando
+3. Alistamos los cambios a subir con el comando:
+	git add ." : Se incluyen todos los archivos
+	gid add -A : Se incluyen todos los archivos
+	gid add nombreArchivoEspecifico : Se sube el o los archivos que especificamos
+4. Ejecutamos el siguiente comando
+	git status : Muestra la lista de cambios respecto al ultimo commit y los cambios que se van a subir
+5. Creamos un commit
+	git commit -m "Mensaje que vamos a subir"
+Cada vez que el proyecto sea modificado repetimos los pasos 2-3-4-5
+6. Creamos un repositorio
+7. Especificamos el repositorio a trabajar con el siguiente comando
+	git remote add origin urlRepositorio
+8. Si tenemos ramas, indicamos la rama donde se van a subir los archivos
+	git branch -M nombreRama
+9. Subimos los cambios al repositorio
+	git push origin nombreRama(main)
+Para bajar los cambios del repositorio a nuestro pc local lo hacemos de la siguiente manera
+	git pull origin nombreRama
+
