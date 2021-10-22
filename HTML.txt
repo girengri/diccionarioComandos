@@ -1,0 +1,10 @@
+****************************************************************************************Etiquetas Principales HTML****************************************************************************************
+<h1>	Titulo Principal
+<p>	Parrafo
+<hr>	Linea Horizontal
+<br>	Salto De Linea
+<a href="" target="_blank">	Referencia para ir a otros sitios web o paginas web. en href se pone la url o pagina a utilizar y en el target donde se va abrir la pagina.
+<img src="" alt="" width="" title="" height="">	Se utiliza para insertar imagenes en nuestra pagina web. En src se pone la carpeta o url de la imagen, alt se pone un texto alternativo por si no
+						carga la imagen, en title se pone un titulo a la imagen que se muestre al poner el cursor, width es el ancho y height el alto de la imagen.
+<pre>	Es un parrafo que me deja el formato con el cual escribo el texto
+<a href="mailto:giova_ren96@hotmail.com"> Me redirige a un correo electronico que se especifica en mailto
