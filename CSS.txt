@@ -1,0 +1,15 @@
+**************************************************************Estructura CSS**************************************************************
+CSS funciona de la siguiente manera
+	
+	selector {					El selector es el elemento al que queremos agregarle las propiedades.Estos pueden ser etiquetas HTML, id o clases.
+		propiedades				Las propiedades son aquellas caracteristicas que le queremos poner a nuestro html, como color de la letra, tipo de fuente, etc.
+		}
+/* */ Sirve para agregar comentarios
+**************************************************************Propiedades basicas CSS**************************************************************
+color: ;		Se especifica el color de la letra
+background-color: ; 	Se especifica el color de fondo
+font-size: ;		Se especifica el tamaño de la letra
+font-family: ;		Se especifica el tipo de fuente a utilizar
+padding: ; 		Se especifica el tamaño del espacio utilizado de mi contenido html
+margin: ;		Se especifica el espaciado que va a tener un contenido con otro. Con margin auto se centra el contenido horizontalmente
+text-align: ;		Se especifica en donde va a quedar el contenido (center...)

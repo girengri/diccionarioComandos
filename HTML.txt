@@ -8,3 +8,5 @@
 						carga la imagen, en title se pone un titulo a la imagen que se muestre al poner el cursor, width es el ancho y height el alto de la imagen.
 <pre>	Es un parrafo que me deja el formato con el cual escribo el texto
 <a href="mailto:giova_ren96@hotmail.com"> Me redirige a un correo electronico que se especifica en mailto
+<link rel="stylesheet" href=""> Nos sirve para relacionar una hoja de estilo a nuestro html, en href referenciamos nuestra hoja de estilo
+<!-- --> Sirve para agregar comentarios
