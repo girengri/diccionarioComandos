@@ -10,3 +10,25 @@
 <a href="mailto:giova_ren96@hotmail.com"> Me redirige a un correo electronico que se especifica en mailto
 <link rel="stylesheet" href=""> Nos sirve para relacionar una hoja de estilo a nuestro html, en href referenciamos nuestra hoja de estilo
 <!-- --> Sirve para agregar comentarios
+
+<a href="" target="_blank">
+	<img src="" alt=""/>	Sirve para poner una imagen como un link
+</a>
+
+****************************************************************************************Tablas en HTML****************************************************************************************
+<table>		Declaramos una tabla en html, dentro de esta etiqueta ponemos los elementos de la tabla
+<caption>	Pone el nombre a nuestra tablas, debe de ir despues de table
+<tr>		Table roule, nos permite crear filas en nuestra tabla
+<th>		Table head, es el cabecero de nuestra tabla
+<td>		Table data, permite agregar una celda a nuestra tabla
+
+****************************************************************************************Listas en HTML****************************************************************************************
+<ul>		Unordered list. Permite crear listas no ordenas
+<ol>		Ordered list. Permite crear listas ordenadas
+<li>		List item. Permite crear elementos de las listas.
+
+***************************************************************************************Creacion Menu con listas*******************************************************************************************
+<ul>
+	<li><a href="../menuNavegacion/index.html">Inicio</a></li>
+	<li><a href="#">Contacto</a></li>
+	<li><a href="#">Acerca De</a></li>

@@ -5,6 +5,21 @@ CSS funciona de la siguiente manera
 		propiedades				Las propiedades son aquellas caracteristicas que le queremos poner a nuestro html, como color de la letra, tipo de fuente, etc.
 		}
 /* */ Sirve para agregar comentarios
+
+**************************************************************Selectores de Link CSS**************************************************************
+a:link{			Sirve para darle color o propiedades CSS a un link cuando iniciamos la pagina por primera vez
+	}
+a:visited{		Sirve para darle propiedades CSS cuando hacemos click a un link
+	}
+a:hover{		Sirve para darle propiedades CSS cuando nos ponemos encima del link
+	}
+a:active{		Sirve para darle propiedades CSS cuando hacemos click sostenido sobre el link
+	}
+
+:root{
+--nombre-variable: 	Sirve para definir desde un principio mi paleta de colores y tipo de fuente a utilizar
+	}
+	
 **************************************************************Propiedades basicas CSS**************************************************************
 color: ;		Se especifica el color de la letra
 background-color: ; 	Se especifica el color de fondo
@@ -13,3 +28,33 @@ font-family: ;		Se especifica el tipo de fuente a utilizar
 padding: ; 		Se especifica el tamaño del espacio utilizado de mi contenido html
 margin: ;		Se especifica el espaciado que va a tener un contenido con otro. Con margin auto se centra el contenido horizontalmente
 text-align: ;		Se especifica en donde va a quedar el contenido (center...)
+text-decoration:none;	Nos sirve para quitar la linea de subrayado de un link
+
+**************************************************************Propiedades tablas CSS**************************************************************
+border-collapse: collapse;	Las tablas por defecto vienen con borde doble, esta propiedad me permite eliminar un borde, para que quede solo 1
+
+tr:nth-child(even){		Permite modificar los renglones pares. odd impares
+
+			}
+
+**************************************************************Propiedades listas CSS**************************************************************
+list-style-type:		Permite escoger la viñeta o simbolo que acompaña a los elementos en una lista desordenada
+
+***************************************************************************************Creacion Menu con listas*******************************************************************************************
+ul{
+    list-style-type: none;
+    background-color: #457b9d;
+    overflow: hidden;		Separa el bloque de la lista como un elemento independiente
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;		Esta propiedad permite organizar los elementos de la lista horizontalmente
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
