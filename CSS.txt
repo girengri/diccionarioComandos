@@ -29,6 +29,9 @@ padding: ; 		Se especifica el tamaño del espacio utilizado de mi contenido html
 margin: ;		Se especifica el espaciado que va a tener un contenido con otro. Con margin auto se centra el contenido horizontalmente
 text-align: ;		Se especifica en donde va a quedar el contenido (center...)
 text-decoration:none;	Nos sirve para quitar la linea de subrayado de un link
+border: ; 		Nos sirve para especificar si un elemento tiene borde.
+letter-spacing;		Nos permite definir el espacio que hay entre las letras
+text-transform ;	Permite poner el texto en mayuscula, miniscula, etc.
 
 **************************************************************Propiedades tablas CSS**************************************************************
 border-collapse: collapse;	Las tablas por defecto vienen con borde doble, esta propiedad me permite eliminar un borde, para que quede solo 1
@@ -39,6 +42,7 @@ tr:nth-child(even){		Permite modificar los renglones pares. odd impares
 
 **************************************************************Propiedades listas CSS**************************************************************
 list-style-type:		Permite escoger la viñeta o simbolo que acompaña a los elementos en una lista desordenada
+list-style:			Permite escoger el simbolo para ordenar la listas ordenadas
 
 ***************************************************************************************Creacion Menu con listas*******************************************************************************************
 ul{
@@ -58,3 +62,14 @@ li a{
     padding: 15px;
     text-decoration: none;
 }
+
+***************************************************************************************Id y Clases en CSS*******************************************************************************************
+.nombre_clase{				Se utiliza para especificar una clase. Permite modificar los atributos que estamos trabajando
+	}
+#nombre_id{				Se utiliza para especificar un id.
+	}				Los identificadores solo se ponen a un solo elemento.
+<a href="#nombre_identificados">	Este me sirve para redireccionar a la clase o id que haya puesto dentro de href	
+
+**************************************************************************************Background CSS************************************************************************************************
+background: linear-gradient(color1, color2);	Sirve para poner un gradiente de colores, un difuminado.
+

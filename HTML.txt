@@ -24,7 +24,7 @@
 
 ****************************************************************************************Listas en HTML****************************************************************************************
 <ul>		Unordered list. Permite crear listas no ordenas
-<ol>		Ordered list. Permite crear listas ordenadas
+<ol type="">	Ordered list. Permite crear listas ordenadas. Con el atributo type puedo decir como me los ordene, por numeros, numeros romanos,etc.
 <li>		List item. Permite crear elementos de las listas.
 
 ***************************************************************************************Creacion Menu con listas*******************************************************************************************
@@ -32,3 +32,42 @@
 	<li><a href="../menuNavegacion/index.html">Inicio</a></li>
 	<li><a href="#">Contacto</a></li>
 	<li><a href="#">Acerca De</a></li>
+
+***************************************************************************************Elementos inline y block********************************************************************************************
+<span>		Lo utilizamos con elementos inline. Los elementos inline se encuentran dentro de la misma linea
+<div>		Lo utilizamos con elementos block. Los elementos block se encuentran en lineas distintas.
+
+***************************************************************************************iframe en HTML**************************************************************************************************
+Es un cuadro donde puedo mostrar otras documentos como paginas web, pdf, etc. Ejemplo: PDFs cargados dentro de una pagina en un cuadro
+
+<iframe src"">				Se crea el iframe. en src especifico la ruta del archivo que voy a llamar
+
+***************************************************************************************Formularios en HTML******************************************************************************************
+<form>			Crea el esquema de formulario
+<input type"">		Nos permite capturar informacion por parte del usuario. Con type le especificamos el tipo de input
+<label>			Pone el nombre de al lado de la caja de texto
+<select>
+	<option value="">
+	.		Permite crear una lista con sus respectivos valores. Los option son los usuarios. Lo que se manda al servidor es el valor que esta en value.
+	.
+</select>
+<textarea>		Crea un campo de texto tipo comentarios.
+<fieldset>		Se crea despues de la etiqueta form y incluye todo lo del formulario. Permite encerrarlo en todo un campo
+<legend>		Se crea despues de la etiqueta fielset. Permite ponerle un nombre a todo el formulario.
+
+**************************************************************************************Atributos Formularios HTML************************************************************************************
+placeholder		Permite poner un texto de fondo en los campos de texto	
+required		El campo es requerido para mandar el formulario
+novalidated		Manda el campo sin validar la informacion
+method			Se especifica como se manda la informacion si con el metodo get o post. El metodo get me muestra la informacion enviada en la url el post no. Este se especifica en la
+			etiqueta form
+step = "any"		Permite en los tipo number numeros decimales
+selected		Permite mostrar un valor por defecto dentro de un select
+disabled		Desactiva la opcion dentro de un select
+multiple		Permite escoger mas opciones dentro de un select.
+readonly		Permite que un campo de texto sea de solo lectura
+
+************************************************************************************Atributos form*************************************************************************************************
+action = ""		Direccion de mi servidor donde se van a guardar los datos
+target= ""		Donde se va a mostrar mi respuesta (_self, _blank, etc)
+autocomplete = ""	Permite autocompletar o no los valores de mi formulario
